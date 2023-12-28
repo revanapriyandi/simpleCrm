@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('lampiran_clients', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('client_id')->constrained();
+            $table->foreignId('client_id')->constrained('clients')->onDelete('cascade');
             $table->string('file_ktp_penanggung_jawab');
             $table->string('file_npwp_penanggung_jawab');
             $table->string('file_npwp_institusi');
