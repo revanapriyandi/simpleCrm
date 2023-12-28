@@ -13,11 +13,7 @@
 
 ## 🚀 Getting Started
 
-***Dependencies***
-
-Please ensure you have the following dependencies installed on your system:
-
-`- ℹ️  PHP ^8.2`
+- ℹ️  PHP ^8.2`
 
 ### 🔧 Installation
 
